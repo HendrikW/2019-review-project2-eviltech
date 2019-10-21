@@ -1,0 +1,115 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+#submitTextField {
+  width: 300px;
+  height: 390px;
+}
+
+.inputButton {
+  margin-left: 33%;
+  border: none;
+  background: #29a329;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+.inputButton:hover {
+  content: " 😈";
+  background: rgba(0, 0, 0, 0);
+  color: #29a329;
+  box-shadow: inset 0 0 0 3px #29a329;
+}
+
+#interesting-fact {
+  font-style: italic;
+  padding: 10px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#facts {
+  list-style: none;
+  padding: 10px;
+  height: 600px;
+}
+
+/* cards */
+
+#container {
+  border: 5px solid red;
+  padding: 10px;
+  box-shadow: 2px 2px #e0e0d1;
+  font-family: sans-serif;
+  width: 335px;
+  height: 800px;
+}
+
+#summary {
+  padding: 10px;
+}
+
+#card {
+  border: 2px solid lightgray;
+  padding: 0;
+  margin: 10px;
+  width: 300px;
+  height: 600px;
+}
+
+.cardContainer {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#delete-button {
+  margin-left: 110px;
+}
+
+#delete-link,
+#edit-title {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  color: red;
+}
+
+#edit-note-form,
+#edit-title-form,
+#loginform,
+#signupform {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#edit-title-button {
+  margin-left: 110px;
+}
+
+footer {
+  text-align: center;
+}

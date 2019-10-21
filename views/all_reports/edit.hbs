@@ -1,0 +1,7 @@
+<form id="edit-note-form" action="/all_reports/{{report._id}}" method="post">
+    <div class="form-group">
+        <label for="note">Note</label><br>
+        <input type="text" class="form-control" name="note" value="{{report.note}}" placeholder="Your note"><br>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+</form>
